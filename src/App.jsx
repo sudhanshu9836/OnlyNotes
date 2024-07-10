@@ -1,9 +1,12 @@
+import Footer from "../Components/Footer/footer"
+import Header from "../Components/Header/header"
+
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1>OnlyNotes</h1>
+    <Header/>
+    <Footer/>
     </>
   )
 }
