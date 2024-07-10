@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2vmax;
+    color: salmon;
+    nav {
+        width: 50%;
+        ul {
+            display: flex;
+            justify-content: space-evenly;
+            li {
+                display: inline;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.branch_aiml{
+    padding-bottom: 2vmax;
+    text-align: center;
+}
+.aiml_dropdown{
+    h3{
+        padding-bottom: 1vmax;
+    }
+}
+
+.aiml_dropdown ul{
+    display: flex;
+    flex-direction: column;
+}
+.aiml_content{
+    gap: 3vmax;
+    cursor: pointer;
+    
+    padding-left: 50vmax;
+    position: absolute;
+    z-index: 1;
+}
+
+
+
+
+
+
